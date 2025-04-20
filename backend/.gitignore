@@ -1,3 +1,0 @@
- backend/questions/ml/models/trained_model/
-*.safetensors
-*.bin
