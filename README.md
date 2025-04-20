@@ -129,8 +129,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - [@yourusername](https://github.com/yourusername)
+Your Name - [@it-zmatt](https://github.com/it-zmatt)
 
-Project Link: [https://github.com/yourusername/it-support-assistant](https://github.com/yourusername/it-support-assistant)
+Project Link: [https://github.com/it-zmatt/bluebee](https://github.com/it-zmatt/bluebee)
 
 The application uses a custom fine-tuned HuggingFace model (`moetao/bluebee-model`) for ticket classification into six categories: software support, wifi support, printer support, network account support, VPN support, and account deletion support.
