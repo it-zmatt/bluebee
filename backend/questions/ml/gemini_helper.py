@@ -1,10 +1,17 @@
 import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 
 class GeminiHelper:
     def __init__(self):
         """Initialize the Gemini API with secure API key management."""
-        api_key = 'AIzaSyDq4NGn57E8ZmR6BVO6YkYaMIsslFeysjE'
+        # Load environment variables
+        load_dotenv()
+        
+        # Get API key from environment
+        api_key = os.getenv('GEMINI_API_KEY')
+        if not api_key:
+            raise ValueError("GEMINI_API_KEY not found in environment variables. Please check your .env file.")
 
         try:
             genai.configure(api_key=api_key)
